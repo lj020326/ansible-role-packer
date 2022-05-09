@@ -1,4 +1,4 @@
-# ansible-packer-vmware
+# ansible-role-packer
 This is an example on how to create a VMware VM template (based on Centos7) with Packer, while having the whole process executed by Ansible. The Packer JSON template and Centos kickstart file are created from jinja2 templates using host variables defined in the Ansible inventory. The Centos ISO and Packer binary are downloaded from URLs, also specified in variables.
 
 ## Overview
